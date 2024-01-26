@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Archive Cleaner
 // @namespace    https://github.com/en-joyer
-// @version      1.0
+// @version      1.1
 // @description  ChatGPT Archive Cleaner
 // @author       en.joyer
 // @match        https://chat.openai.com/*
@@ -16,8 +16,9 @@
   function deleteConversations() {
 
     console.log("Script started");
-
-    let total = 3;
+    const table = document.querySelector(".w-full.border-separate.border-spacing-0");
+    const trs = table.querySelectorAll("tbody > tr");
+    let total = trs.length;
 
     for(let i = 1; i <= total; i++) {
 
@@ -52,6 +53,7 @@
     }
 
     console.log("Script finished");
+    alert("Script finished.");
 
   }
 
