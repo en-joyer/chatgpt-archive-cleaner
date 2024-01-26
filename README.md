@@ -10,7 +10,6 @@ This UserScript is designed to clear your ChatGPT chat history in archive. You c
 2. Log in to ChatGPT.
 3. Archive the chats you want to delete.
 4. Load the script via Tampermonkey.
-5. Change the `` let total = 3; `` at line 20 to total number of your archived chats. Save it.
 6. Enable it and go to https://chat.openai.com/#settings
 7. Click to "Archived chats"
 8. Wait for "Script finished" alert.
