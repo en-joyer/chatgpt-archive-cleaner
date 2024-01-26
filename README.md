@@ -25,6 +25,7 @@ This UserScript is designed to clear your ChatGPT chat history in archive. You c
 ## Version
 
 1.0
+1.1 - 26.01.2024
 
 ## Permissions
 
